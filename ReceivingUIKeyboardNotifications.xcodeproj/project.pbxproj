@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9D6CC4B1EB9BA5200906409 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D6CC4A1EB9BA5200906409 /* AppDelegate.swift */; };
+		B9D6CC4D1EB9BA5200906409 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D6CC4C1EB9BA5200906409 /* ViewController.swift */; };
+		B9D6CC501EB9BA5200906409 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D6CC4E1EB9BA5200906409 /* Main.storyboard */; };
+		B9D6CC521EB9BA5200906409 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D6CC511EB9BA5200906409 /* Assets.xcassets */; };
+		B9D6CC551EB9BA5200906409 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D6CC531EB9BA5200906409 /* LaunchScreen.storyboard */; };
+		B9D6CC601EB9BA5200906409 /* ReceivingUIKeyboardNotificationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D6CC5F1EB9BA5200906409 /* ReceivingUIKeyboardNotificationsTests.swift */; };
+		B9D6CC6B1EB9BA5200906409 /* ReceivingUIKeyboardNotificationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D6CC6A1EB9BA5200906409 /* ReceivingUIKeyboardNotificationsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9D6CC5C1EB9BA5200906409 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9D6CC3F1EB9BA5200906409 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9D6CC461EB9BA5200906409;
+			remoteInfo = ReceivingUIKeyboardNotifications;
+		};
+		B9D6CC671EB9BA5200906409 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9D6CC3F1EB9BA5200906409 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9D6CC461EB9BA5200906409;
+			remoteInfo = ReceivingUIKeyboardNotifications;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9D6CC471EB9BA5200906409 /* ReceivingUIKeyboardNotifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReceivingUIKeyboardNotifications.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D6CC4A1EB9BA5200906409 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9D6CC4C1EB9BA5200906409 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9D6CC4F1EB9BA5200906409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9D6CC511EB9BA5200906409 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9D6CC541EB9BA5200906409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9D6CC561EB9BA5200906409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9D6CC5B1EB9BA5200906409 /* ReceivingUIKeyboardNotificationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReceivingUIKeyboardNotificationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D6CC5F1EB9BA5200906409 /* ReceivingUIKeyboardNotificationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceivingUIKeyboardNotificationsTests.swift; sourceTree = "<group>"; };
+		B9D6CC611EB9BA5200906409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9D6CC661EB9BA5200906409 /* ReceivingUIKeyboardNotificationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReceivingUIKeyboardNotificationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D6CC6A1EB9BA5200906409 /* ReceivingUIKeyboardNotificationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceivingUIKeyboardNotificationsUITests.swift; sourceTree = "<group>"; };
+		B9D6CC6C1EB9BA5200906409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9D6CC441EB9BA5200906409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D6CC581EB9BA5200906409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D6CC631EB9BA5200906409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9D6CC3E1EB9BA5200906409 = {
+			isa = PBXGroup;
+			children = (
+				B9D6CC491EB9BA5200906409 /* ReceivingUIKeyboardNotifications */,
+				B9D6CC5E1EB9BA5200906409 /* ReceivingUIKeyboardNotificationsTests */,
+				B9D6CC691EB9BA5200906409 /* ReceivingUIKeyboardNotificationsUITests */,
+				B9D6CC481EB9BA5200906409 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9D6CC481EB9BA5200906409 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9D6CC471EB9BA5200906409 /* ReceivingUIKeyboardNotifications.app */,
+				B9D6CC5B1EB9BA5200906409 /* ReceivingUIKeyboardNotificationsTests.xctest */,
+				B9D6CC661EB9BA5200906409 /* ReceivingUIKeyboardNotificationsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9D6CC491EB9BA5200906409 /* ReceivingUIKeyboardNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				B9D6CC4A1EB9BA5200906409 /* AppDelegate.swift */,
+				B9D6CC4C1EB9BA5200906409 /* ViewController.swift */,
+				B9D6CC4E1EB9BA5200906409 /* Main.storyboard */,
+				B9D6CC511EB9BA5200906409 /* Assets.xcassets */,
+				B9D6CC531EB9BA5200906409 /* LaunchScreen.storyboard */,
+				B9D6CC561EB9BA5200906409 /* Info.plist */,
+			);
+			path = ReceivingUIKeyboardNotifications;
+			sourceTree = "<group>";
+		};
+		B9D6CC5E1EB9BA5200906409 /* ReceivingUIKeyboardNotificationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9D6CC5F1EB9BA5200906409 /* ReceivingUIKeyboardNotificationsTests.swift */,
+				B9D6CC611EB9BA5200906409 /* Info.plist */,
+			);
+			path = ReceivingUIKeyboardNotificationsTests;
+			sourceTree = "<group>";
+		};
+		B9D6CC691EB9BA5200906409 /* ReceivingUIKeyboardNotificationsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9D6CC6A1EB9BA5200906409 /* ReceivingUIKeyboardNotificationsUITests.swift */,
+				B9D6CC6C1EB9BA5200906409 /* Info.plist */,
+			);
+			path = ReceivingUIKeyboardNotificationsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9D6CC461EB9BA5200906409 /* ReceivingUIKeyboardNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9D6CC6F1EB9BA5200906409 /* Build configuration list for PBXNativeTarget "ReceivingUIKeyboardNotifications" */;
+			buildPhases = (
+				B9D6CC431EB9BA5200906409 /* Sources */,
+				B9D6CC441EB9BA5200906409 /* Frameworks */,
+				B9D6CC451EB9BA5200906409 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReceivingUIKeyboardNotifications;
+			productName = ReceivingUIKeyboardNotifications;
+			productReference = B9D6CC471EB9BA5200906409 /* ReceivingUIKeyboardNotifications.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9D6CC5A1EB9BA5200906409 /* ReceivingUIKeyboardNotificationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9D6CC721EB9BA5200906409 /* Build configuration list for PBXNativeTarget "ReceivingUIKeyboardNotificationsTests" */;
+			buildPhases = (
+				B9D6CC571EB9BA5200906409 /* Sources */,
+				B9D6CC581EB9BA5200906409 /* Frameworks */,
+				B9D6CC591EB9BA5200906409 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9D6CC5D1EB9BA5200906409 /* PBXTargetDependency */,
+			);
+			name = ReceivingUIKeyboardNotificationsTests;
+			productName = ReceivingUIKeyboardNotificationsTests;
+			productReference = B9D6CC5B1EB9BA5200906409 /* ReceivingUIKeyboardNotificationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9D6CC651EB9BA5200906409 /* ReceivingUIKeyboardNotificationsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9D6CC751EB9BA5200906409 /* Build configuration list for PBXNativeTarget "ReceivingUIKeyboardNotificationsUITests" */;
+			buildPhases = (
+				B9D6CC621EB9BA5200906409 /* Sources */,
+				B9D6CC631EB9BA5200906409 /* Frameworks */,
+				B9D6CC641EB9BA5200906409 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9D6CC681EB9BA5200906409 /* PBXTargetDependency */,
+			);
+			name = ReceivingUIKeyboardNotificationsUITests;
+			productName = ReceivingUIKeyboardNotificationsUITests;
+			productReference = B9D6CC661EB9BA5200906409 /* ReceivingUIKeyboardNotificationsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9D6CC3F1EB9BA5200906409 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.group08;
+				TargetAttributes = {
+					B9D6CC461EB9BA5200906409 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					B9D6CC5A1EB9BA5200906409 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B9D6CC461EB9BA5200906409;
+					};
+					B9D6CC651EB9BA5200906409 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B9D6CC461EB9BA5200906409;
+					};
+				};
+			};
+			buildConfigurationList = B9D6CC421EB9BA5200906409 /* Build configuration list for PBXProject "ReceivingUIKeyboardNotifications" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9D6CC3E1EB9BA5200906409;
+			productRefGroup = B9D6CC481EB9BA5200906409 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9D6CC461EB9BA5200906409 /* ReceivingUIKeyboardNotifications */,
+				B9D6CC5A1EB9BA5200906409 /* ReceivingUIKeyboardNotificationsTests */,
+				B9D6CC651EB9BA5200906409 /* ReceivingUIKeyboardNotificationsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9D6CC451EB9BA5200906409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D6CC551EB9BA5200906409 /* LaunchScreen.storyboard in Resources */,
+				B9D6CC521EB9BA5200906409 /* Assets.xcassets in Resources */,
+				B9D6CC501EB9BA5200906409 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D6CC591EB9BA5200906409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D6CC641EB9BA5200906409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9D6CC431EB9BA5200906409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D6CC4D1EB9BA5200906409 /* ViewController.swift in Sources */,
+				B9D6CC4B1EB9BA5200906409 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D6CC571EB9BA5200906409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D6CC601EB9BA5200906409 /* ReceivingUIKeyboardNotificationsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D6CC621EB9BA5200906409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D6CC6B1EB9BA5200906409 /* ReceivingUIKeyboardNotificationsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9D6CC5D1EB9BA5200906409 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9D6CC461EB9BA5200906409 /* ReceivingUIKeyboardNotifications */;
+			targetProxy = B9D6CC5C1EB9BA5200906409 /* PBXContainerItemProxy */;
+		};
+		B9D6CC681EB9BA5200906409 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9D6CC461EB9BA5200906409 /* ReceivingUIKeyboardNotifications */;
+			targetProxy = B9D6CC671EB9BA5200906409 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9D6CC4E1EB9BA5200906409 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9D6CC4F1EB9BA5200906409 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9D6CC531EB9BA5200906409 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9D6CC541EB9BA5200906409 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9D6CC6D1EB9BA5200906409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9D6CC6E1EB9BA5200906409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9D6CC701EB9BA5200906409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReceivingUIKeyboardNotifications/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.group08.ReceivingUIKeyboardNotifications;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B9D6CC711EB9BA5200906409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReceivingUIKeyboardNotifications/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.group08.ReceivingUIKeyboardNotifications;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B9D6CC731EB9BA5200906409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReceivingUIKeyboardNotificationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.group08.ReceivingUIKeyboardNotificationsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReceivingUIKeyboardNotifications.app/ReceivingUIKeyboardNotifications";
+			};
+			name = Debug;
+		};
+		B9D6CC741EB9BA5200906409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReceivingUIKeyboardNotificationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.group08.ReceivingUIKeyboardNotificationsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReceivingUIKeyboardNotifications.app/ReceivingUIKeyboardNotifications";
+			};
+			name = Release;
+		};
+		B9D6CC761EB9BA5200906409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ReceivingUIKeyboardNotificationsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.group08.ReceivingUIKeyboardNotificationsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ReceivingUIKeyboardNotifications;
+			};
+			name = Debug;
+		};
+		B9D6CC771EB9BA5200906409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ReceivingUIKeyboardNotificationsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.group08.ReceivingUIKeyboardNotificationsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ReceivingUIKeyboardNotifications;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9D6CC421EB9BA5200906409 /* Build configuration list for PBXProject "ReceivingUIKeyboardNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D6CC6D1EB9BA5200906409 /* Debug */,
+				B9D6CC6E1EB9BA5200906409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9D6CC6F1EB9BA5200906409 /* Build configuration list for PBXNativeTarget "ReceivingUIKeyboardNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D6CC701EB9BA5200906409 /* Debug */,
+				B9D6CC711EB9BA5200906409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B9D6CC721EB9BA5200906409 /* Build configuration list for PBXNativeTarget "ReceivingUIKeyboardNotificationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D6CC731EB9BA5200906409 /* Debug */,
+				B9D6CC741EB9BA5200906409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B9D6CC751EB9BA5200906409 /* Build configuration list for PBXNativeTarget "ReceivingUIKeyboardNotificationsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D6CC761EB9BA5200906409 /* Debug */,
+				B9D6CC771EB9BA5200906409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9D6CC3F1EB9BA5200906409 /* Project object */;
+}
